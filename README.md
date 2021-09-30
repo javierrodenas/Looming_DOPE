@@ -1,6 +1,10 @@
 # Looming_DOPE
 
 
+### Description
+
+DOPE performs the detection and estimation of the 3D position of objects from a single RGB image. Use a deep learning approach to predict the key points of the images focusing on the corners of the object and the center of the 3D delimiting box. After that, it applies a PnP post processing to estimate the 3D position.
+
 
 ### Dataset generator
 
