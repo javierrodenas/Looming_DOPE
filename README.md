@@ -3,7 +3,7 @@
 
 ### Description
 
-DOPE performs the detection and estimation of the 3D position of objects from a single RGB image. Use a deep learning approach to predict the key points of the images focusing on the corners of the object and the center of the 3D delimiting box. After that, it applies a PnP post processing to estimate the 3D position.
+DOPE performs the detection and estimation of the 3D objects position from a single RGB image. Use a deep learning approach to predict the key points of the images focusing on the corners of the object and the center of the 3D delimiting box. After that, it applies a PnP post processing to estimate the 3D position.
 
 
 ### Dataset generator
@@ -57,3 +57,6 @@ rosrun rviz rviz
 ```
 
 
+## Reference
+
+__[DOPE](https://github.com/NVlabs/Deep_Object_Pose) - Deep Object Pose Estimation (DOPE) – ROS inference (CoRL 2018)__
