@@ -1,6 +1,6 @@
 # Looming_DOPE
 
-<img src="https://github.com/javierrodenas/Looming_DOPE/blob/main/github_img/Looming.PNG" width="80%" height="80%">
+<img src="https://github.com/javierrodenas/Looming_DOPE/blob/main/github_img/Looming.PNG" width="50%" height="50%">
 
 
 ### Description
