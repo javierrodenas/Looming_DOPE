@@ -1,5 +1,7 @@
 # Looming_DOPE
 
+<img src="https://github.com/javierrodenas/Looming_DOPE/blob/main/github_img/Looming.PNG" width="80%" height="80%">
+
 
 ### Description
 
@@ -56,6 +58,10 @@ __4. Start rviz node__
 rosrun rviz rviz
 ```
 
+
+## Acknowledgements
+
+Thanks to all the institutions that collaborate in this project and are making it possible to meet the objectives
 
 ## Reference
 
