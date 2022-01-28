@@ -10,16 +10,16 @@ DOPE performs the detection and estimation of the 3D objects position from a sin
 
 ### Dataset generator
 
-<img src="https://github.com/javierrodenas/Looming_DOPE/blob/main/github_img/generator.PNG" width="80%" height="80%">
+<img src="https://github.com/javierrodenas/Looming_DOPE/DOPE/blob/main/github_img/generator.PNG" width="80%" height="80%">
 
 ### Dataset generation
 
-<img src="https://github.com/javierrodenas/Looming_DOPE/blob/main/github_img/dataset_generation.PNG" width="80%" height="80%">
+<img src="https://github.com/javierrodenas/Looming_DOPE/DOPE/blob/main/github_img/dataset_generation.PNG" width="80%" height="80%">
 
 
 ### Image generated
 
-<img src="https://github.com/javierrodenas/Looming_DOPE/blob/main/github_img/looming_piece.png" width="80%" height="80%">
+<img src="https://github.com/javierrodenas/Looming_DOPE/DOPE/blob/main/github_img/looming_piece.png" width="80%" height="80%">
 
 
 ### Running
