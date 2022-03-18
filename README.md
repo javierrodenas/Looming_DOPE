@@ -45,7 +45,7 @@ First of all, the path should be configured in config_pose.yaml where we will de
 In our case, we have different DOPE models to be able to validate the prediction with multiple models. (looming_piece, looming_piece1, looming_piece2…)
 
 
-On the other hand, SCNet checkpoints for pieces segmentation should be set up on looming_inference.py using the following lines of code (already prepared in the .py file)
+On the other hand, SCNet checkpoints for pieces segmentation should be set up on looming_inference.py using the following code lines (already prepared in the .py file)
 ```
 config_file = '/Documents/Looming_DOPE/SCNET/looming/looming.py'
 checkpoint_file = '/Documents/Looming_DOPE/SCNET/looming/latest.pth'
