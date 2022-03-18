@@ -23,6 +23,7 @@ Python 3.X version
 ### Configuration
 The combination of the two models is in the /SCNET/ directory with the following structure:
 
+```
 │Looming_DOPE/
 ├──DOPE/
 ├──SCNET/
@@ -34,7 +35,7 @@ The combination of the two models is in the /SCNET/ directory with the following
 │  ├── inference.py
 │  ├── models.py
 │  ├── requirements.txt
-
+```
 
 First of all, the path should be configured in config_pose.yaml where we will define the checkpoints to be used by the DOPE, for example:
 
@@ -49,6 +50,9 @@ On the other hand, SCNet checkpoints for pieces segmentation should be set up on
 config_file = '/Documents/Looming_DOPE/SCNET/looming/looming.py'
 checkpoint_file = '/Documents/Looming_DOPE/SCNET/looming/latest.pth'
 ```
+
+
+### Usage
 Once the checkpoints have been set up, we launch the code using line:
 
 Inference using a folder with RGB images:
