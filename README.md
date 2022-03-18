@@ -19,10 +19,47 @@ Python 3.X version
 | pyrr | 0.10.3 |
 | simplejson | 3.17.6 |
 
+
+### Configuration
+The combination of the two models is in the /SCNET/ directory with the following structure:
+
+│Looming_DOPE/
+├──DOPE/
+├──SCNET/
+│  ├── inference/
+│  │   ├── config_inference/
+│  │   │   ├── camera_info.yaml
+│  │   │   ├── config_pose.yaml
+│  ├── out_experiment/
+│  ├── inference.py
+│  ├── models.py
+│  ├── requirements.txt
+
+
+First of all, the path should be configured in config_pose.yaml where we will define the checkpoints to be used by the DOPE, for example:
+
 ```
-cd tools
-python3 tools/train.py looming.py  
+“looming_piece": "/Documents/Looming_DOPE/DOPE/weights/mark_120.pth"
 ```
+In our case, we have different DOPE models to be able to validate the prediction with multiple models. (looming_piece, looming_piece1, looming_piece2…)
+
+
+On the other hand, SCNet checkpoints for pieces segmentation should be set up on looming_inference.py using the following lines of code (already prepared in the .py file)
+```
+config_file = '/Documents/Looming_DOPE/SCNET/looming/looming.py'
+checkpoint_file = '/Documents/Looming_DOPE/SCNET/looming/latest.pth'
+```
+Once the checkpoints have been set up, we launch the code using line:
+
+Inference using a folder with RGB images:
+```
+python3 looming_inference.py --data <path>
+```
+Inference using realsense:
+```
+python3 looming_inference.py  --realsense
+```
+
 
 ## Acknowledgements
 
