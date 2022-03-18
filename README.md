@@ -14,10 +14,10 @@ Python 3.X version
 
 | Library | Version  |
 | :---:   | :-: |
-| mmdet | 301 |
-| Version | 301 |
-| Version | 301 |
-| Version | 301 |
+| mmdet | 2.12.0 |
+| mmcv-full | 1.3.3 |
+| pyrr | 0.10.3 |
+| simplejson | 3.17.6 |
 
 ```
 cd tools
