@@ -13,11 +13,11 @@ Python 3.X version
 
 
 | Library | Version  |
-| :---:   | :-: | :-: |
-| mmdet | 301 | 283 |
-| Version | 301 | 283 |
-| Version | 301 | 283 |
-| Version | 301 | 283 |
+| :---:   | :-: |
+| mmdet | 301 |
+| Version | 301 |
+| Version | 301 |
+| Version | 301 |
 
 ```
 cd tools
