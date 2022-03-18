@@ -8,7 +8,7 @@ SCNet performs the segmentation of pieces from a single RGB image. Use a deep le
 
 ### Dataset generation
 
-<img src="https://github.com/javierrodenas/Looming_DOPE/blob/main/DOPE/github_img/labelme.PNG" width="80%" height="80%">
+<img src="https://github.com/javierrodenas/Looming_DOPE/blob/main/DOPE/github_img/labelme.png" width="80%" height="80%">
 
 Tool [Labelme](https://github.com/wkentaro/labelme) used to label the images.
 

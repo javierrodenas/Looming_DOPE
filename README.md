@@ -12,8 +12,11 @@ Combining these two algorithms, a solution capable of solving the production req
 Python 3.X version
 
 
-| Library | mmdet  | mmcv-full  |
+| Library | Version  |
 | :---:   | :-: | :-: |
+| mmdet | 301 | 283 |
+| Version | 301 | 283 |
+| Version | 301 | 283 |
 | Version | 301 | 283 |
 
 ```
