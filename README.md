@@ -65,7 +65,7 @@ python3 looming_inference.py  --realsense
 ```
 
 
-<img src="https://github.com/javierrodenas/Looming_DOPE/blob/main/DOPE/github_img/complete_loop.png" width="50%" height="50%">
+<img src="https://github.com/javierrodenas/Looming_DOPE/blob/main/DOPE/github_img/complete_loop.png" width="100%" height="100%">
 
 ## Acknowledgements
 
