@@ -30,4 +30,5 @@ Thanks to all the institutions that collaborate in this project and are making i
 
 ## Reference
 
-__[mmdetection](https://mmdetection.readthedocs.io/en/latest/api.html) - MMDetection is an open source object detection toolbox based on PyTorch. It is a part of the OpenMMLab project
+__[mmdetection](https://mmdetection.readthedocs.io/en/latest/api.html) - MMDetection is an open source object detection toolbox based on PyTorch. It is a part of the OpenMMLab project__
+__[DOPE](https://github.com/NVlabs/Deep_Object_Pose) - Deep Object Pose Estimation (DOPE) – ROS inference (CoRL 2018)__
